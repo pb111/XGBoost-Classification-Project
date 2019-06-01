@@ -114,19 +114,19 @@ The disadvantages of XGBoost are as follows:-
 
 Now, we know about the XGBoost model. But, we should also know about the parameters that XGBoost provides. There are three types of parameters that we must set before running XGBoost. These parameters are as follows:-
 
-### General parameters
+**General parameters**
 
 These parameters relate to which booster we are doing boosting. The common ones are tree or linear model.
 
-### Booster parameters
+**Booster parameters**
 
 It depends on which booster we have chosen for boosting.
 
-### Learning task parameters
+**Learning task parameters**
 
 These parameters decide on the learning scenario. For example, regression tasks may use different parameters than ranking tasks. 
 
-### Command line parameters
+**Command line parameters**
 
 In addition there are command line parameters which relate to behaviour of CLI version of XGBoost.
 

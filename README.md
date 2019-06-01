@@ -85,7 +85,7 @@ Boosting is shown in the figure below:-
 ![Boosting](https://github.com/pb111/XGBoost-Classification-Project/blob/master/Images/Boosting.jpg)
 
 
-Image source:PacktPub
+Image source:Packt
 
 
 ===============================================================================

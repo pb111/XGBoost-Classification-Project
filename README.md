@@ -7,6 +7,37 @@
 ## Table of Contents
 
 
+I have divided this project into various topics which are listed below:-
+
+
+1.	Introduction to XGBoost algorithm
+
+2.	XGBoost algorithm intuition
+
+3.	Boosting algorithms
+
+4.	Advantages and disadvantages of XGBoost
+
+5.	XGBoost parameters
+
+6.	Parameter tuning with XGBoost
+
+7.	Detect and control overfitting
+
+8.	Handle imbalanced dataset with XGBoost
+
+9.	k-fold Cross Validation using XGBoost
+
+10.	Boosting trees with XGBoost
+
+11.	Feature selection with XGBoost
+
+12.	The problem statement
+
+13.	Results and conclusion
+
+14.	References
+
 ===============================================================================
 
 

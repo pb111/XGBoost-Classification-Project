@@ -1,6 +1,9 @@
 # XGBoost Classification with Python and Scikit-Learn
 
 
+**XGBoost** is an acronym for **Extreme Gradient Boosting**. It is a powerful machine learning algorithm that can be used to solve classification and regression problems. In this project, I implement XGBoost with Python and Scikit-Learn to solve a classification problem. The problem is to classify the customers from two different channels as Horeca (Hotel/Retail/Café) customers or Retail 
+channel (nominal) customers.
+
 ===============================================================================
 
 
@@ -55,10 +58,16 @@ XGBoost was developed by Tianqi Chen in C++ but also enables interfaces for Pyth
 
 ## 2. XGBoost algorithm intuition
 
+
 XGBoost (Extreme Gradient Boosting) belongs to a family of boosting algorithms. It uses the gradient boosting (GBM) framework at its core. So, first of all we should know about gradient boosting.
 
-### Gradient boosting 
-Gradient boosting is a supervised machine learning algorithm, which tries to predict a target variable by combining the estimates of a set of simpler, weaker models. 
+**Gradient boosting** 
+
+Gradient boosting is a supervised machine learning algorithm, which tries to predict a target variable by combining the estimates of a set of simpler, weaker models. In boosting, the trees are built in a sequential manner such that each subsequent tree aims to reduce the errors of the previous tree. The misclassified labels are given higher weights.  Each tree learns from its predecessors and tries to reduce the residual errors. So, the tree next in sequence will learn from the previous tree residuals.
+
+**XGBoost**
+
+In XGBoost, we try to fit a model on the gradient of the loss function generated from the previous step. So, in XGBoost we modified our gradient boosting algorithm so that it works with any differentiable loss function.
 
 
 ===============================================================================
@@ -270,6 +279,15 @@ us a way to do feature selection.
 
 ## 12. The problem statement
 
+In this project, I try to solve a classification problem. The problem is to classify the customers from two different channels 
+as Horeca (Hotel/Retail/Café) customers or Retail channel (nominal) customers. I implement XGBoost with Python and Scikit-Learn 
+to solve the classification problem. 
+
+I have used the `Wholesale customers data set` for this project, downloaded from the UCI Machine learning repository. This dataset 
+can be found at the following url-
+
+https://archive.ics.uci.edu/ml/datasets/Wholesale+customers
+
 
 ===============================================================================
 
@@ -302,11 +320,7 @@ The work done in this project is inspired from following books and websites:-
 
 9.	https://acadgild.com/blog/xgboost-python
 
-10.	https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/ 
-
-11.	https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/
-
-
+10.https://medium.com/@pushkarmandot/how-exactly-xgboost-works-a320d9b8aeef
 
 
 

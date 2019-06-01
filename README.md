@@ -81,7 +81,9 @@ Thus, the boosting algorithm combines a number of weak learners to form a strong
 
 Boosting is shown in the figure below:-
 
-# D-Boosting
+
+![Boosting](https://github.com/pb111/XGBoost-Classification-Project/blob/master/Images/Boosting.jpg)
+
 
 ===============================================================================
 

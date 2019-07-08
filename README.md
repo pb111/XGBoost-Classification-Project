@@ -294,6 +294,18 @@ https://archive.ics.uci.edu/ml/datasets/Wholesale+customers
 
 ## 13. Results and conclusion
 
+1.	In this project, I implement XGBoost with Python and Scikit-Learn to classify the customers from two different channels as Horeca (Hotel/Retail/Café) customers or Retail channel (nominal) customers.
+
+2.	The y labels contain values as 1 and 2. I have converted them into 0 and 1 for further analysis.
+
+3.	I have trained the XGBoost classifier and found the accuracy score to be 91.67%.
+
+4.	I have done the hyperparameter tuning in XGBoost by doing k-fold cross-validation.
+
+5.	I find the most important feature in XGBoost to be `Grocey`. I did it using the **plot_importance()** function in XGBoost that helps us to achieve this task. 
+
+
+
 ===============================================================================
 
 
